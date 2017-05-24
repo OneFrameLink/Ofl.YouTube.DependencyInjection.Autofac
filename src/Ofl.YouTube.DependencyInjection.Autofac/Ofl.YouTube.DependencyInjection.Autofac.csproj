@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Ofl.YouTube.Abstractions implementation registrations in Autofac.</Description>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>Ofl.YouTube.DependencyInjection.Autofac</AssemblyName>
+    <PackageId>Ofl.YouTube.DependencyInjection.Autofac</PackageId>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.YouTube.DependencyInjection.Autofac</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.YouTube.DependencyInjection.Autofac.git</RepositoryUrl>
+    <PackageTags>youtube youtube-api youtube-data-api dependency-injection autofac</PackageTags>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.1.0" />
+    <PackageReference Include="Ofl.YouTube" Version="2.0.7" />
+    <PackageReference Include="Ofl.YouTube.Abstractions" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
